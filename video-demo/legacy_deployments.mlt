@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.20.0" title="Shotcut version ARCH-20.04.12" producer="main_bin">
+  <profile description="automatic" width="2880" height="1616" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="2880" display_aspect_den="1616" frame_rate_num="15" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:02:04.733">
+    <property name="length">00:02:04.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:02:04.733"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:02:35.867">
+    <property name="length">00:02:35.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-1.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:10:54</property>
+    <property name="shotcut:hash">f734c0db515293af4a9b6e04e01c08b7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-1.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:02:35.867">
+    <property name="length">00:02:35.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-1.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:10:54</property>
+    <property name="shotcut:hash">f734c0db515293af4a9b6e04e01c08b7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-1.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:02:35.867">
+    <property name="length">00:02:35.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-1.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:10:54</property>
+    <property name="shotcut:hash">f734c0db515293af4a9b6e04e01c08b7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-1.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:02:35.867">
+    <property name="length">00:02:35.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-1.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:10:54</property>
+    <property name="shotcut:hash">f734c0db515293af4a9b6e04e01c08b7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-1.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:02.733"/>
+    <entry producer="producer0" in="00:00:06.733" out="00:00:21.067"/>
+    <entry producer="producer1" in="00:00:24.000" out="00:01:22.333"/>
+    <entry producer="producer2" in="00:01:22.400" out="00:01:33.400"/>
+    <entry producer="producer3" in="00:01:52.467" out="00:01:55.600"/>
+  </playlist>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" in="00:00:01.267" out="00:00:03.933">
+      <property name="argument">Legacy deployments</property>
+      <property name="geometry">0 1212 2880 404 1</property>
+      <property name="family">Sans</property>
+      <property name="size">80</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">top</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+    </filter>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:31.533">
+    <property name="length">00:01:31.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-2.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:09:22</property>
+    <property name="shotcut:hash">3bc6647b9bc75ce10b99b74586af7443</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-2.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:31.533">
+    <property name="length">00:01:31.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-2.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:09:22</property>
+    <property name="shotcut:hash">3bc6647b9bc75ce10b99b74586af7443</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-2.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:01:31.533">
+    <property name="length">00:01:31.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/anliksim/recordings/out-2.ogv</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-05-20T14:09:22</property>
+    <property name="shotcut:hash">3bc6647b9bc75ce10b99b74586af7443</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">out-2.ogv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer4" in="00:00:01.267" out="00:00:03.933"/>
+    <blank length="00:01:27.067"/>
+    <entry producer="producer5" in="00:00:20.200" out="00:00:30.667"/>
+    <entry producer="producer6" in="00:00:44.800" out="00:01:04.400"/>
+    <entry producer="producer7" in="00:01:19.667" out="00:01:24.400"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version ARCH-20.04.12" global_feed="1" in="00:00:00.000" out="00:02:04.733">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

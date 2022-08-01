@@ -1,0 +1,32 @@
+[1;33m迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎[0m
+Welcome to the interactive setup.
+Please use this in combination with the user manual.
+Every step will perform certain checks, execute scripts and may export variables.
+[1;33m迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎[0m
+Which step should I execute:
+\----------------------------
+This step requires manual intervention. [1;33m![0m
+For more information visit the private cloud section of the user manual.
+
+Checks:
+host: Stopped
+kubelet: Stopped
+apiserver: Stopped
+kubeconfig: Stopped
+
+Starting minikube.
+🙄  minikube v1.7.2 on Arch 20.0.1
+✨  Using the kvm2 driver based on user configuration
+⌛  Reconfiguring existing host ...
+🔄  Starting existing kvm2 VM for "minikube" ...
+🐳  Preparing Kubernetes v1.17.2 on Docker 19.03.5 ...
+🚀  Launching Kubernetes ... 
+🌟  Enabling addons: default-storageclass, storage-provisioner
+🏄  Done! kubectl is now configured to use "minikube"
+Checks:
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+Minikube is running. [0;32m✓[0m

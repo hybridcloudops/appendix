@@ -1,0 +1,33 @@
+/----------------------------
+Which step should I execute:
+1) Install git hooks		       4) Prepare kube config		     7) Start deployer server		  10) Tail legacyctld logs		13) Restore kube config		      16) Stop deployer server
+2) Setup private cloud environment     5) Start artifactory server	     8) Show kube config		  11) Tail deployer logs		14) Stop artifactory server	      17) Exit
+3) Setup public cloud environment      6) Start legacyctld server	     9) Tail artifactory logs		  12) Destroy public cloud environment	15) Stop legacyctld server
+#? \----------------------------
+Using public cloud config: /home/anliksim/codebase/bsc-itest/bsc-env/infra/.env/kube-public
+Using private cloud config: /home/anliksim/codebase/bsc-itest/bsc-env/infra/.env/kube-private
+
+minikube is configured [0;32m✓[0m
+bsc-aks is configured [0;32m✓[0m
+/----------------------------
+Which step should I execute:
+1) Install git hooks		       4) Prepare kube config		     7) Start deployer server		  10) Tail legacyctld logs		13) Restore kube config		      16) Stop deployer server
+2) Setup private cloud environment     5) Start artifactory server	     8) Show kube config		  11) Tail deployer logs		14) Stop artifactory server	      17) Exit
+3) Setup public cloud environment      6) Start legacyctld server	     9) Tail artifactory logs		  12) Destroy public cloud environment	15) Stop legacyctld server
+#? \----------------------------
+Process started with PID 38289
+/----------------------------
+Which step should I execute:
+1) Install git hooks		       4) Prepare kube config		     7) Start deployer server		  10) Tail legacyctld logs		13) Restore kube config		      16) Stop deployer server
+2) Setup private cloud environment     5) Start artifactory server	     8) Show kube config		  11) Tail deployer logs		14) Stop artifactory server	      17) Exit
+3) Setup public cloud environment      6) Start legacyctld server	     9) Tail artifactory logs		  12) Destroy public cloud environment	15) Stop legacyctld server
+#? \----------------------------
+Process started with PID 38293
+/----------------------------
+Which step should I execute:
+1) Install git hooks		       4) Prepare kube config		     7) Start deployer server		  10) Tail legacyctld logs		13) Restore kube config		      16) Stop deployer server
+2) Setup private cloud environment     5) Start artifactory server	     8) Show kube config		  11) Tail deployer logs		14) Stop artifactory server	      17) Exit
+3) Setup public cloud environment      6) Start legacyctld server	     9) Tail artifactory logs		  12) Destroy public cloud environment	15) Stop legacyctld server
+#? \----------------------------
+Process started with PID 38301
+/----------------------------

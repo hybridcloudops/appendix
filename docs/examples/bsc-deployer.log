@@ -1,0 +1,310 @@
+2020/06/18 22:29:20 Starting server v0.8 at http://localhost:3557
+2020/06/18 22:50:01 >> POST /v1/deployments
+2020/06/18 22:50:01 Request for new deployment
+2020/06/18 22:50:01 &{/home/anliksim/codebase/bsc-itest/bsc-env a1397a3 Trigger initial deployment}
+2020/06/18 22:50:01 << POST /v1/deployments 262.424µs
+[1;30mSwitched to context "bsc-aks".
+[0m2020/06/18 22:50:01 Public cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.15.11
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 22:50:02 Private cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.17.2
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mnamespace/monitoring created
+namespace/tenant-a created
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mnamespace/monitoring configured
+namespace/tenant-a unchanged
+[0m2020/06/18 22:50:06 Redeploying policies...
+[1;30mcustomresourcedefinition.apiextensions.k8s.io/cloudpolicies.bsc.anliksim serverside-applied
+[0m[1;30mNo resources found
+[0m[1;30mcloudpolicy.bsc.anliksim/monitoring-group-policy unchanged
+cloudpolicy.bsc.anliksim/monitoring-prom-policy configured
+cloudpolicy.bsc.anliksim/rest-group-policy unchanged
+cloudpolicy.bsc.anliksim/rest-go-policy configured
+cloudpolicy.bsc.anliksim/vote-group-policy unchanged
+[0m2020/06/18 22:50:07 Policy setup:
+[1;30mNAMESPACE    NAME                      AGE
+monitoring   monitoring-group-policy   29d
+monitoring   monitoring-prom-policy    29d
+tenant-a     rest-go-policy            29d
+tenant-a     rest-group-policy         29d
+tenant-a     vote-group-policy         29d
+[0m2020/06/18 22:50:07 Deploying apps to private cloud...
+2020/06/18 22:50:07 Deploying cloud group monitoring-prom to [cloud-env-bsc-aks]...
+[1;30mSwitched to context "bsc-aks".
+[0m[1;30mconfigmap/prometheus-config created
+clusterrole.rbac.authorization.k8s.io/prometheus created
+serviceaccount/default configured
+clusterrolebinding.rbac.authorization.k8s.io/prometheus created
+deployment.apps/prometheus created
+service/prometheus created
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mconfigmap "prometheus-config" deleted
+clusterrole.rbac.authorization.k8s.io "prometheus" deleted
+serviceaccount "default" deleted
+clusterrolebinding.rbac.authorization.k8s.io "prometheus" deleted
+deployment.apps "prometheus" deleted
+service "prometheus" deleted
+[0m2020/06/18 22:50:10 Deploying cloud group rest-go to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps "liveness-http" deleted
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 22:50:11 Deploying cloud group rest to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 22:50:12 Deploying cloud group vote to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 22:50:14 Deploying cloud group monitoring to [cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/grafana unchanged
+service/grafana unchanged
+service/prometheus-pushgateway unchanged
+deployment.apps/prometheus-pushgateway unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 22:50:17 Deploying to http://127.0.0.1:3556...
+[1;30mrest-qkt-legacy configured
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:12:54 >> POST /v1/deployments
+2020/06/18 23:12:54 Request for new deployment
+2020/06/18 23:12:54 &{/home/anliksim/codebase/bsc-itest/bsc-env b52ebb0 change}
+2020/06/18 23:12:54 << POST /v1/deployments 166.392µs
+[1;30mSwitched to context "bsc-aks".
+[0m2020/06/18 23:12:54 Public cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.15.11
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:12:55 Private cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.17.2
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m2020/06/18 23:13:00 Redeploying policies...
+[1;30mcustomresourcedefinition.apiextensions.k8s.io/cloudpolicies.bsc.anliksim serverside-applied
+[0m[1;30mNo resources found
+[0m[1;30mcloudpolicy.bsc.anliksim/monitoring-group-policy unchanged
+cloudpolicy.bsc.anliksim/monitoring-prom-policy unchanged
+cloudpolicy.bsc.anliksim/rest-group-policy unchanged
+cloudpolicy.bsc.anliksim/rest-go-policy configured
+cloudpolicy.bsc.anliksim/vote-group-policy unchanged
+[0m2020/06/18 23:13:01 Policy setup:
+[1;30mNAMESPACE    NAME                      AGE
+monitoring   monitoring-group-policy   29d
+monitoring   monitoring-prom-policy    29d
+tenant-a     rest-go-policy            29d
+tenant-a     rest-group-policy         29d
+tenant-a     vote-group-policy         29d
+[0m2020/06/18 23:13:01 Deploying apps to private cloud...
+2020/06/18 23:13:01 Deploying cloud group monitoring to [cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/grafana unchanged
+service/grafana unchanged
+service/prometheus-pushgateway unchanged
+deployment.apps/prometheus-pushgateway unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:13:03 Deploying cloud group monitoring-prom to [cloud-env-bsc-aks]...
+[1;30mSwitched to context "bsc-aks".
+[0m[1;30mconfigmap/prometheus-config unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+serviceaccount/default unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mserviceaccount "default" deleted
+[0m2020/06/18 23:13:05 Deploying cloud group rest-go to [none cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/liveness-http created
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:13:06 Deploying cloud group rest to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:13:07 Deploying cloud group vote to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:13:10 Deploying to http://127.0.0.1:3556...
+[1;30mrest-qkt-legacy unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:15:44 >> POST /v1/deployments
+2020/06/18 23:15:44 Request for new deployment
+2020/06/18 23:15:44 &{/home/anliksim/codebase/bsc-itest/bsc-env d2764ca Enable prom on both clouds}
+2020/06/18 23:15:44 << POST /v1/deployments 301.674µs
+[1;30mSwitched to context "bsc-aks".
+[0m2020/06/18 23:15:44 Public cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.15.11
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:15:45 Private cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.17.2
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m2020/06/18 23:15:47 Redeploying policies...
+[1;30mcustomresourcedefinition.apiextensions.k8s.io/cloudpolicies.bsc.anliksim serverside-applied
+[0m[1;30mNo resources found
+[0m[1;30mcloudpolicy.bsc.anliksim/monitoring-group-policy unchanged
+cloudpolicy.bsc.anliksim/monitoring-prom-policy configured
+cloudpolicy.bsc.anliksim/rest-group-policy unchanged
+cloudpolicy.bsc.anliksim/rest-go-policy unchanged
+cloudpolicy.bsc.anliksim/vote-group-policy unchanged
+[0m2020/06/18 23:15:47 Policy setup:
+[1;30mNAMESPACE    NAME                      AGE
+monitoring   monitoring-group-policy   29d
+monitoring   monitoring-prom-policy    29d
+tenant-a     rest-go-policy            29d
+tenant-a     rest-group-policy         29d
+tenant-a     vote-group-policy         29d
+[0m2020/06/18 23:15:47 Deploying apps to private cloud...
+2020/06/18 23:15:48 Deploying cloud group monitoring to [cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/grafana unchanged
+service/grafana unchanged
+service/prometheus-pushgateway unchanged
+deployment.apps/prometheus-pushgateway unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:15:50 Deploying cloud group monitoring-prom to [cloud-env-minikube cloud-env-bsc-aks]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mconfigmap/prometheus-config created
+clusterrole.rbac.authorization.k8s.io/prometheus created
+serviceaccount/default configured
+clusterrolebinding.rbac.authorization.k8s.io/prometheus created
+deployment.apps/prometheus created
+service/prometheus created
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mconfigmap/prometheus-config unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+serviceaccount/default unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[0m[1;30mNo resources found
+[0m2020/06/18 23:15:53 Deploying cloud group rest-go to [none cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/liveness-http unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:15:54 Deploying cloud group rest to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:15:55 Deploying cloud group vote to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:15:58 Deploying to http://127.0.0.1:3556...
+[1;30mrest-qkt-legacy unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:22:07 >> POST /v1/deployments
+2020/06/18 23:22:07 Request for new deployment
+2020/06/18 23:22:07 &{/home/anliksim/codebase/bsc-env 6d46ac0 Fix service health dashboard}
+2020/06/18 23:22:07 << POST /v1/deployments 111.92µs
+[1;30mSwitched to context "bsc-aks".
+[0m2020/06/18 23:22:07 Public cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.15.11
+[0m[1;30mSwitched to context "minikube".
+[0m2020/06/18 23:22:08 Private cloud version:
+[1;30mClient Version: v1.17.2
+Server Version: v1.17.2
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m[1;30mnamespace/monitoring unchanged
+namespace/tenant-a unchanged
+[0m2020/06/18 23:22:09 Redeploying policies...
+[1;30mcustomresourcedefinition.apiextensions.k8s.io/cloudpolicies.bsc.anliksim serverside-applied
+[0m[1;30mNo resources found
+[0m[1;30mcloudpolicy.bsc.anliksim/monitoring-group-policy unchanged
+cloudpolicy.bsc.anliksim/monitoring-prom-policy unchanged
+cloudpolicy.bsc.anliksim/rest-group-policy unchanged
+cloudpolicy.bsc.anliksim/rest-go-policy configured
+cloudpolicy.bsc.anliksim/vote-group-policy unchanged
+[0m2020/06/18 23:22:10 Policy setup:
+[1;30mNAMESPACE    NAME                      AGE
+monitoring   monitoring-group-policy   29d
+monitoring   monitoring-prom-policy    29d
+tenant-a     rest-go-policy            29d
+tenant-a     rest-group-policy         29d
+tenant-a     vote-group-policy         29d
+[0m2020/06/18 23:22:10 Deploying apps to private cloud...
+2020/06/18 23:22:10 Deploying cloud group monitoring to [cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/grafana unchanged
+service/grafana unchanged
+service/prometheus-pushgateway unchanged
+deployment.apps/prometheus-pushgateway unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:22:12 Deploying cloud group monitoring-prom to [cloud-env-minikube cloud-env-bsc-aks]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mconfigmap/prometheus-config unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+serviceaccount/default unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mconfigmap/prometheus-config unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+serviceaccount/default unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[0m[1;30mNo resources found
+[0m2020/06/18 23:22:14 Deploying cloud group rest-go to [cloud-env-minikube]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mdeployment.apps/liveness-http unchanged
+[0m[1;30mNo resources found
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:22:16 Deploying cloud group rest to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:22:17 Deploying cloud group vote to [none]...
+[1;30mSwitched to context "minikube".
+[0m[1;30mDone
+[0m[1;30mSwitched to context "bsc-aks".
+[0m[1;30mDone
+[0m2020/06/18 23:22:19 Deploying to http://127.0.0.1:3556...
+[1;30mrest-qkt-legacy unchanged
+[0m[1;30mSwitched to context "minikube".
+[0m

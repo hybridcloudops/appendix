@@ -1,0 +1,12 @@
+[1;33m迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎[0m
+Welcome to the interactive setup.
+Please use this in combination with the user manual.
+Every step will perform certain checks, execute scripts and may export variables.
+[1;33m迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎迎[0m
+Which step should I execute:
+\----------------------------
+Install git client-side hook for deployments
+Installed:
+.git/modules/bsc-env/hooks/post-commit
+/----------------------------
+
